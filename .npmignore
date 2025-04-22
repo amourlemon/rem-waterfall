@@ -1,0 +1,29 @@
+# 开发环境文件
+.git
+.gitignore
+.editorconfig
+.eslintrc.js
+.prettierrc
+.vscode
+
+# 构建文件
+dist/test
+dist/demo
+
+# 测试文件
+tests
+coverage
+
+# 文档
+docs
+*.md
+!README.md
+!CHANGELOG.md
+!LICENSE
+
+# 其他
+node_modules
+yarn.lock
+package-lock.json
+*.log
+.DS_Store 

@@ -1,0 +1,85 @@
+{
+  "name": "rem-waterfall",
+  "version": "0.1.0",
+  "description": "A responsive waterfall layout component for Vue.js",
+  "main": "dist/rem-waterfall.umd.js",
+  "module": "dist/rem-waterfall.esm.js",
+  "unpkg": "dist/rem-waterfall.min.js",
+  "jsdelivr": "dist/rem-waterfall.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name rem-waterfall src/index.js",
+    "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit",
+    "test:unit": "vue-cli-service test:unit",
+    "test:coverage": "vue-cli-service test:unit --coverage",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "waterfall",
+    "layout",
+    "responsive",
+    "grid"
+  ],
+  "author": "amourlemon <953593486@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/rem-waterfall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/rem-waterfall/issues"
+  },
+  "homepage": "https://github.com/yourusername/rem-waterfall#readme",
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^1.3.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jest": "^27.0.6",
+    "jest-serializer-vue": "^2.0.2",
+    "jest-transform-stub": "^2.0.0",
+    "less": "^4.3.0",
+    "less-loader": "^12.2.0",
+    "vue-jest": "^3.0.7",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "jest": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
