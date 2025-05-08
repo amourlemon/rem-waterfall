@@ -107,6 +107,8 @@ export default {
   height: 900  // 图片原始高度（包含内容区域）
 }
 ```
+## 效果演示
+![Uploading image.png…]()
 
 ## 许可证
 
