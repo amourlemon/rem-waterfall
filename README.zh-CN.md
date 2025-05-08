@@ -108,7 +108,8 @@ export default {
 }
 ```
 ## 效果演示
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/a4c7e71e-826f-40b6-8a21-a8683c82e474)
+
 
 ## 许可证
 
